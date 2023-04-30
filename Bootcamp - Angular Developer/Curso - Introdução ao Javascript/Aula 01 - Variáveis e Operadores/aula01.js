@@ -10,23 +10,3 @@ console.log(pi);
 
 let variavel2 = 10 - 5 + 10 * 20 / 2;   // a ordem das operações segue o padrão existente na matemática (* / + -)
 console.log(variavel2);
-
-
-// DESAFIO
-
-/* 
-    Faça um programa para calcular o valor de uma viagem.
-
-    Você terá 3 variaveis, sendo elas:
-    1 - Preço do combustível;
-    2 - Gasto médio de combustível do carro por KM;
-    3 - Distancia em KM da viagem; 
-*/
-
-const precoCombustivel = 5.51;
-const kmPorLitro = 10;
-const distanciaKm = 100;
-
-const litrosConsumidos = distanciaKm / kmPorLitro;
-const valorDaViagem = precoCombustivel * litrosConsumidos;
-console.log(valorDaViagem.toFixed(2));
