@@ -10,34 +10,34 @@ const isNumeroEPar = (numero % 2) === 0;       // "==" ignora o tipo da variáve
 console.log(isNumeroEPar);     // Por convenção declaramos variáveis booleanas com "is" ou "eh" para representar uma ideia de estado.
 
 if (isNumeroEPar) {            // se a condição for verdadeira o operador IF irá executar os códigos contidos nele.
-    console.log('Par')
+    console.log('Par');
 }
 else {                         // Else = Senão.
-    console.log('Impar')
+    console.log('Impar');
 }
 
 if (!isNumeroEPar) {           // utilizamos o "!" para representar uma desigualdade na condição. Neste caso, se o número NÃO for par o operador IF irá executar os códigos contidos nele.
-    console.log('Impar')
+    console.log('Impar');
 }
 
 */
 
 if ((numero % 2) === 0) {
-    console.log('Par')
+    console.log('Par');
 }
 else {
-    console.log('Impar')
+    console.log('Impar');
 }
 
 const numero2 = 0;
 const numeroDivisivelPor5 = (numero2 % 5) === 0;
 
 if (numero2 === 0) {
-    console.log('O número é inválido')
+    console.log('O número é inválido');
 }
 else if (numeroDivisivelPor5) {             // Else if = Senão se.
-    console.log('Sim')
+    console.log('Sim');
 }
 else {
-    console.log('Não')
+    console.log('Não');
 }
