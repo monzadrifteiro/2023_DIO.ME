@@ -64,5 +64,4 @@ class Pessoa {
 const jose = new Pessoa('José', 70, 1.75);
 
 console.log('Meu IMC é ' + jose.calcularImc().toFixed(2));
-
 console.log(jose.classificarImc());
