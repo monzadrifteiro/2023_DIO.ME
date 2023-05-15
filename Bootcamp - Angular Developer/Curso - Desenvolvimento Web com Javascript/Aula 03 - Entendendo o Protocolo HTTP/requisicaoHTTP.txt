@@ -1,0 +1,55 @@
+Requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon/1
+     ${Endereço}/${path = caminho de identificação do recurso}
+
+IP: https://pokeapi.co (Domínio)
+    https://127.0.0.1:3000 (Domínio convertido para IP via DNS )
+
+--------------------------------------------------------------------------
+Request Method: GET | POST | PUT | DELETE
+
+GET: Buscar
+POST: Inserir
+PUT: Atualizar
+DELETE: Deletar
+
+// GET
+Como realizar a passagem de parâmetros?
+
+Path Params: https://pokeapi.co/api/v2/pokemon/${id}                //O ID é dinâmico
+
+Query String: https://pokeapi.co/api/v2/pokemon?type=grass                      //Começa após o ?
+              https://pokeapi.co/api/v2/pokemon?type=grass&name=id              //Query String sempre será uma estrutura de Chave-Valor
+
+--------------------------------------------------------------------------
+
+// Headers
+Um conjunto de metadados sobre as nossas requisições
+
+Request Headers: 
+  Configuração
+  Authorization: Basic, Bearer
+  content-type: application/json
+
+Response Headers:
+  Configuração
+
+--------------------------------------------------------------------------
+
+// Request Body
+É o corpo da requisição.
+
+{
+  name: "Teste"
+}
+
+--------------------------------------------------------------------------
+
+Status Code: Número retornado que apresenta o que aconteceu com a requisição.
+
+Response Headers
+
+Response Body
+
+--------------------------------------------------------------------------
